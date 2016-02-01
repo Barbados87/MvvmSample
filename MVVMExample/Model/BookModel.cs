@@ -6,6 +6,12 @@ namespace MVVMExample.Model
 {
     public class BookModel : ModelBase
     {
+        /// <summary>
+        /// Gets or sets the book names.
+        /// </summary>
+        /// <value>
+        /// The book names.
+        /// </value>
         public ObservableCollection<StringWrapper> BookNames { get; set; }
         
         [MinLength(5)]

@@ -1,0 +1,2365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b5facb6a-d929-4387-8495-629f5cd648b3"
+  name="MVVMExample"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="76c80566-279d-4541-b52e-4879008b63ad"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMVVMExample"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="a217d02a-cfc5-4dfc-a027-12f453d64a1b">
+      <profileInstance
+        Id="0ea76028-bfd0-460e-b52f-7d6522428b9d"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d52b26fa-8275-4411-a0fe-4e1937776ec6"
+        name="DataAccess"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d59a5fc0-c602-4e02-b186-306d2f1e60b7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b536d24-1bdd-4b72-bd8e-3cbcb5b9ad5e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b05a44b-3870-4534-b4ff-ad874ee8e8b6">
+                <propertyInstance
+                  Id="f68a0606-61ff-4393-8942-a7315ae689f9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b996e081-cba3-4a80-98e4-99177faaa22f">
+                <propertyInstance
+                  Id="686f7c6c-fb85-487e-bbc7-4e35981a16b5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56fe2e18-ffcc-4663-b6a7-813279472417">
+                <propertyInstance
+                  Id="d2239918-eb8c-4d4e-a187-892d6cb6808d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="086321be-a266-41e5-8e92-da20e1872332">
+                <propertyInstance
+                  Id="c7f8f962-544b-4420-b9b2-84c50bc10fdf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e8b5d32-ef22-4646-ad98-d7e9fd629660">
+                <propertyInstance
+                  Id="1635620c-6cda-4722-9cc4-acea0afb03de"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b11a1bf8-748b-4e0e-b38c-6f6f49f1d84d"
+            name="_random"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="42c884b1-79e1-4c36-b1d9-2b6ec3833a6a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D_random"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="58bf6d86-89e1-4cf9-a715-3ab5d7a7ed9c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="484453bd-e1e0-4b3d-a10c-578ac6ac6270">
+                    <propertyInstance
+                      Id="e13d4c6b-9215-4ceb-a456-d6a346e41599"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0de6be93-ec4a-4288-849c-3e99e8566586">
+                    <propertyInstance
+                      Id="a6502cca-8c16-4358-b93e-1290887987a2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea3a72bc-e842-4450-b6fe-f762c8185155">
+                    <propertyInstance
+                      Id="4e85be38-e500-4a43-83cd-2fd9f70e34d8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10eaa748-9568-4a14-8e99-6661bd8b22a1">
+                    <propertyInstance
+                      Id="132506f5-190f-409d-a87c-3b1a8a7a4b1d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9c372c7-3f7a-4935-a4a6-1f6af4e606bd">
+                    <propertyInstance
+                      Id="5b415a18-98f0-403f-84ce-d3fd82bf0e9c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ffd63cfe-adbf-4d79-a251-69111433e7eb"
+                LastKnownName="Random"
+                LastKnownLocation="Package1_1119.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b14baa4e-57a9-44b2-be75-e17f63513285"
+            name="_counter"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7a9e367a-5a03-495a-9b33-7498cffdbc4b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D_counter"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50c1819d-d045-4916-9630-d3fe42f180fe"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9b25200-cd25-4a73-b909-71187058af2d">
+                    <propertyInstance
+                      Id="7127fe47-bb96-4cb3-802a-5fe8d585c693"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f32053ba-11f1-4efc-aba9-5e05fc1aa06d">
+                    <propertyInstance
+                      Id="fbac29c7-bc3f-4dc7-8c83-e7220019b9c9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3799e5e-2402-4741-9ef4-2f026c676aea">
+                    <propertyInstance
+                      Id="09a0045c-c0d3-4e0c-afbf-22cc88a9e36c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf9c46d1-f0b2-4cc7-a4cc-9519c54c312a">
+                    <propertyInstance
+                      Id="1a7559cf-36b1-46e6-9c39-0546e40f8c9c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d001d086-b9a2-4b9a-a526-a1945fb92fa3">
+                    <propertyInstance
+                      Id="4e0ce753-e732-4414-8843-3c473e24f61b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="378c47f3-f3a5-4854-a689-cf01f9fbc79f"
+            name="_names"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="badac084-0eb6-41c5-89e7-89d186ce3a9e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D_names"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="221f6be1-ec26-4100-a7e4-320b58f16908"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8edefe1b-2eb1-469a-bcc2-b50454eeb611">
+                    <propertyInstance
+                      Id="7d23ccbc-1dd4-4b05-8094-a1cf95546479"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b48a1e38-4157-4b1c-b9d6-64671bd5ef3d">
+                    <propertyInstance
+                      Id="410e8323-f7dc-4e29-8a0a-fc08a7d39730"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c94c3ad-d7d0-441f-a548-9badc1f5f83c">
+                    <propertyInstance
+                      Id="9834f747-91dd-425d-aa39-58e484c9b66b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ef7e32a-6ae0-4526-ad31-4e3fa7294b0f">
+                    <propertyInstance
+                      Id="10f4e941-6364-441e-88c6-84e860d1b98f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="348c8444-8544-4186-9ec7-5542fa2f5ce3">
+                    <propertyInstance
+                      Id="724d7fa9-0c3b-4857-a416-0f9ceee30b71"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="9e40d7a0-e380-4b76-81bd-e6e3d97cf323"
+                LastKnownName="List&lt;String‎&gt;"
+                LastKnownLocation="Package5_1119.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="392c181b-b47c-4a1c-9f0b-af9ac07508ae"
+            name="Data"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f4d3b76f-4eb2-4795-b77c-f90192e04612"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3DData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8540f2fc-7495-49d1-bd98-bdb53f2e8482"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4852e7fd-bb16-4cef-ab76-cefe44cd4975">
+                    <propertyInstance
+                      Id="9d22d003-b678-4f25-8bc1-2e64116a56ef"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b44b9089-7bba-4177-b990-914088202051">
+                    <propertyInstance
+                      Id="3ccb6c3b-f01d-4bee-9254-3848528b0c04"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a7e2192-6f43-49dd-b83e-e40f151e3558">
+                    <propertyInstance
+                      Id="a1f20dcc-4458-43ca-aaae-721a7c4cca2b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a47fe656-7eba-43ae-bbda-a0e7f399c087">
+                    <propertyInstance
+                      Id="b0ea85f3-957f-4955-9a51-d4edfed6379b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38115b65-fecf-430f-a728-36bb3fc6131f">
+                    <propertyInstance
+                      Id="44a0d35b-d9ad-4adb-9a85-42db3e0360f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="331a74cf-690c-4729-aa26-841ce442dcc1"
+                LastKnownName="ObservableCollection&lt;StringWrapper‎&gt;"
+                LastKnownLocation="Package3_1119.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d21adb07-885e-4cca-93ca-f3893635abe2"
+            name="DatabaseUpdated"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0664bb26-fc03-4f64-b600-a25ed70feed0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3DDatabaseUpdated"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72c8a738-3c6e-4872-a864-e24aae64d004"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f88422d5-bed8-47aa-928b-782566921433">
+                    <propertyInstance
+                      Id="351eaa19-ad3f-4801-8c28-09e4fed09435"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23b52dcb-4b85-4574-af1f-a1bd40e2466c">
+                    <propertyInstance
+                      Id="54cc5dd9-fcbe-4d66-a876-09cd2e20ec97"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47a77a70-8725-4ea5-a848-1b5ffc75dbe8">
+                    <propertyInstance
+                      Id="afe8ad7e-2e2d-4d41-ba68-7331aedff8da"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88455c0d-12ee-4afa-b6be-b8d9a4785ce3">
+                    <propertyInstance
+                      Id="183a5090-6101-4571-9eca-05abb27d1802"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74da1564-65b5-4cd7-8f17-dee0f9291e95">
+                    <propertyInstance
+                      Id="f984a05a-c895-4dcb-a37d-72e014205e32"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6bdd037b-e5ee-49ce-bd90-f0bdbd349e1e"
+                LastKnownName="UpdateHandler"
+                LastKnownLocation="Package_1119.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="addf3cf1-8005-4011-8933-64b5e3383a62"
+            name="Select"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d4c380e9-ceed-4692-bcac-017bb35eff52"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3DSelect"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b437797d-de99-49ab-8f45-bbf9529d6d29"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="292da9de-689b-4d17-8fef-11a5f178cc14">
+                    <propertyInstance
+                      Id="3b52d624-fa98-4ae4-852e-2d9b2c05da60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9157b14f-9282-4093-8280-8c33a13ea110">
+                    <propertyInstance
+                      Id="42f87cea-17b9-47dd-b653-483c443a22ca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98fed8bf-24bb-460a-b78b-c5b8b8f60f78">
+                    <propertyInstance
+                      Id="7dcfa469-f2eb-4bf9-8138-26447d2c0cfc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77cfab26-e21e-4fa6-b17e-e76bd8c49aca">
+                    <propertyInstance
+                      Id="4ed26ed8-a3c0-41ea-a92a-2816daff3e86"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8e70a14-3c98-4cbf-9de0-80b532b8f708">
+                    <propertyInstance
+                      Id="8309b9f5-cfda-4362-8e7a-8fdc12ccdd27"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c751cc12-b4e1-4db3-aed6-94566e7cb975">
+                    <propertyInstance
+                      Id="48dac8ee-7f38-44bc-88e7-a8d08ef85b7e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="86cb3226-caff-45d9-96d7-1c71bbd7885b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="331a74cf-690c-4729-aa26-841ce442dcc1"
+                      LastKnownName="ObservableCollection&lt;StringWrapper‎&gt;"
+                      LastKnownLocation="Package3_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="692b9741-6155-4873-9417-942e88a82d93"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6f3fed0a-c5a3-4585-b4c7-cfc8f3e36ae9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Collections.ObjectModel Type%3D(Name%3DObservableCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample.ViewModelBase Type%3DStringWrapper)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fbaa2e39-a2ae-4705-9f82-129b3624184f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d520dcd5-f4c7-490c-8d8e-7710c53e8d37">
+                    <propertyInstance
+                      Id="bc21a9fe-b4e9-4b57-a4c0-53c0b9f974e4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41057c80-5739-45e8-aaa5-c200e4b93e7f">
+                    <propertyInstance
+                      Id="da584d21-8614-4716-a3a7-1902dc6c435b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e73c0bbd-143b-4868-8f4e-541f323012e1">
+                    <propertyInstance
+                      Id="4de19c16-75ff-4e99-a600-8fbcd9a63831"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="632e1a7f-7654-4f0f-a5c1-4950b2b0708a">
+                    <propertyInstance
+                      Id="0d1083f4-fa86-48d0-a72a-f038e3932549"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88b40a58-0f5f-4f9b-9bad-25e9c1745ef9">
+                    <propertyInstance
+                      Id="448d8487-b85e-4cbd-bb46-b9eb3819c984"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1201b132-bb04-41d9-8dc9-62ad2006881f">
+                    <propertyInstance
+                      Id="12b542f1-ad52-4623-9ed1-bc08adfef7bb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="312c672f-a86a-4f45-adcf-f19c89d3b429"
+                  name="data"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="08289761-9dc8-4b88-a775-33115bd966ad"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Collections.ObjectModel Type%3D(Name%3DObservableCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample.ViewModelBase Type%3DStringWrapper)]))]) ParameterIdentifier%3Ddata"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="331a74cf-690c-4729-aa26-841ce442dcc1"
+                      LastKnownName="ObservableCollection&lt;StringWrapper‎&gt;"
+                      LastKnownLocation="Package3_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2106dcdc-75af-4bd1-8b2f-71bf73836cb1"
+            name="DataAccess"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6e8c2d3b-ffcf-448f-ac0d-bddd4b1abade"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44e104b9-302f-4819-80dd-024b1eeae1d3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7c160e7-1d72-4683-b839-c79a899e72a0">
+                    <propertyInstance
+                      Id="28215de5-0012-4b06-be60-4c2ac6286351"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11ca9d13-25cc-4212-b46a-2a252b3ad653">
+                    <propertyInstance
+                      Id="aa2cdfe2-3a70-4667-b182-96acc45c1c79"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e5d5bbd-ca53-4308-bf63-029b855b2987">
+                    <propertyInstance
+                      Id="066b6c21-369a-438c-9ca9-906e4c5c6bff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da8d3efe-d113-40c5-9e72-32c4924e18d4">
+                    <propertyInstance
+                      Id="85bdd43b-fd31-43ec-975a-c19b5871205e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b986a62-baee-4c21-b0fa-79cb4428a8c8">
+                    <propertyInstance
+                      Id="0f1fe808-f2c1-49d9-ab1f-73c33eb3dfef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94c98d0e-d626-494d-8196-b2c8273dfc88">
+                    <propertyInstance
+                      Id="eb30db90-80fa-4877-a3a2-85943d52e24c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="01dd7a69-9848-402e-9991-ee0b2863bb15"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="03fe0777-63f7-428e-86b0-6e3192a278df"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Collections.ObjectModel Type%3D(Name%3DObservableCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample.ViewModelBase Type%3DStringWrapper)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="21189bf5-8646-450c-b2ac-d6ac1abd3cc9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bd893dc-a74c-41b6-92d8-55db0c65d246">
+                    <propertyInstance
+                      Id="7736e0fb-e3d6-4248-9b37-eb179baff808"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d01ae988-107b-4513-9703-bdcee402e569">
+                    <propertyInstance
+                      Id="464408a0-26d4-4fb9-838f-50fa8c501f74"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3166a2c-a00a-4e48-a6a2-3c180f5124cf">
+                    <propertyInstance
+                      Id="c6f173d1-19cc-437f-94b2-3a49b6721cb4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89a901cb-04de-4601-9618-c805bb391456">
+                    <propertyInstance
+                      Id="061c6b88-9269-4d1a-a0eb-6c8bd90a5756"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="223ab082-592d-411b-946f-ecf6d5d5e357">
+                    <propertyInstance
+                      Id="2d49b730-d352-4990-9ca7-d9f5963ca7ad"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3c43fff-cc12-4040-9610-989cfb756b96">
+                    <propertyInstance
+                      Id="75a6f8c8-6e6d-44c3-9ebd-88b06c7bb181"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9cfa1fc9-099e-4b8a-89d4-19771b1c0c78"
+            name="DataAccess"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="26014165-1c22-4cf1-b123-2e0bef3fbc97"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DDataAccess Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2490a2d9-a8df-4bfc-a5a2-4df91cbdee6b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc6395b8-4955-456a-bd84-a2fcd1b8f3ca">
+                    <propertyInstance
+                      Id="9bb9edf1-8f2a-4bd7-8d43-3f54a6983a2b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef2f3133-ee01-4ad0-b445-fc040081ff05">
+                    <propertyInstance
+                      Id="498b7cb5-6e3f-446a-8cde-88c69fed88b1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61860fea-34e0-4b73-b9d9-9fbd7c177fda">
+                    <propertyInstance
+                      Id="31c7ece5-6cf9-4d21-9392-a855c222fc28"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a6de1d1-004b-4027-87b6-e23a9cf687ec">
+                    <propertyInstance
+                      Id="cd5ee2b0-5315-4d2e-adf6-f4fb56678b3c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6184af29-4f99-440c-9424-5d5ccb92deed">
+                    <propertyInstance
+                      Id="e1b39cd2-153f-49fc-8411-47cb78c473a8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f66cca44-fb18-4497-ace1-fc676ee98ec3">
+                    <propertyInstance
+                      Id="5a98682c-79a4-4274-92de-7e4f9efe7f36"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2c469caf-266d-45eb-b1e0-6faca46d6b2e"
+        LastKnownName="ViewModelBase"
+        LastKnownLocation="Package4_1119.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6bdd037b-e5ee-49ce-bd90-f0bdbd349e1e"
+        name="UpdateHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5998202d-c983-4796-873c-5555276f978c"
+            handle="viewcode://./CodeSchema_Delegate?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3D(Name%3DUpdateHandler ParentType%3DDataAccess)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="33acec54-e12a-47f7-b7a6-0548a0f3ba29"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dea383ed-bdfb-4417-90a7-25d8c2df770d">
+                <propertyInstance
+                  Id="cadfa260-a717-4c56-9739-e76015c1a597"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a59f682-bdd6-449c-aed9-c859cf53750e">
+                <propertyInstance
+                  Id="596d7c2c-5f2d-41ba-9386-cb1398fa1444"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b65acfd-24a1-4fcf-a272-62ee86653915">
+                <propertyInstance
+                  Id="19345b38-c574-4aa6-b38d-d38151c92b5c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e40ba8f0-ecfa-41e9-8cbd-ef6b9f95d4e0"
+            name="Invoke"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7b78d0ae-2011-4831-ae0d-6a9e5e22ed12"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3D(Name%3DUpdateHandler ParentType%3DDataAccess) Member%3D(Name%3DInvoke OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Collections.ObjectModel Type%3D(Name%3DObservableCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample.ViewModelBase Type%3DStringWrapper)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e90c618-b6ed-42ab-bfb2-c25b3b16a315"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79ae9c91-0570-4481-b473-1d8605bafcab">
+                    <propertyInstance
+                      Id="8b81cad5-b4fc-443b-9236-cc9b3b7cbb11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c2d2b82-9f39-4ed4-8bbf-c4957c58aae2">
+                    <propertyInstance
+                      Id="ab9ea7c0-8349-4bbe-9359-480778b48f9b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7da71b91-17c8-4bfa-8610-9eb61279c447">
+                    <propertyInstance
+                      Id="023befd6-6d7d-4916-ba24-6731e1c489d0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b93b4d72-04bf-4d37-87da-7598d2dd4936">
+                    <propertyInstance
+                      Id="26a1d1ff-d773-4a31-8bd0-a3e0f1ee9b08"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5013656-8e79-42f7-b60f-a30333615a24">
+                    <propertyInstance
+                      Id="67286c5c-969f-43fe-9242-c682282537e2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2239162d-fec9-48ca-a7d5-d7aa285e8f6d">
+                    <propertyInstance
+                      Id="58393a7c-a188-4ef5-bbf5-de14ae1b0861"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ce5f16e3-2120-42f2-a9a6-a11b11271700"
+                  name="list"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a1219e19-9009-4a9a-967d-ebbe281b4358"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3D(Name%3DUpdateHandler ParentType%3DDataAccess) Member%3D(Name%3DInvoke OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Collections.ObjectModel Type%3D(Name%3DObservableCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample.ViewModelBase Type%3DStringWrapper)]))]) ParameterIdentifier%3Dlist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="331a74cf-690c-4729-aa26-841ce442dcc1"
+                      LastKnownName="ObservableCollection&lt;StringWrapper‎&gt;"
+                      LastKnownLocation="Package3_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="16ad1649-1828-4e7d-9a3d-526d0e79dd39"
+        name="NameGenerator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="796c3752-be38-4652-a160-77038c36ccc9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DNameGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="20a51320-8e86-4445-bca3-06ccae4f6f80"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22b8f367-e8a2-4b18-a0f0-251ada6af327">
+                <propertyInstance
+                  Id="e111a407-a714-4227-ba73-081ea09e3faf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b5794ce-acfb-4dd6-a3aa-3863e1339b97">
+                <propertyInstance
+                  Id="a26ddf2a-a739-4020-bee8-1013d9b0d166"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80120029-6b81-414c-85c4-e819211a03a0">
+                <propertyInstance
+                  Id="25baabdc-bdb4-4efe-a061-649f9d0358b9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="68a57677-a244-49a0-b9a7-7765fef03957">
+                <propertyInstance
+                  Id="7ce7c1b2-93cf-402f-b15c-77215bc693b0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d054a50-9b4c-497e-8281-44eadd95e8e9">
+                <propertyInstance
+                  Id="0211c859-213c-4471-b42c-8f852c5b28ed"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="d726f2cb-4670-45c8-ace0-423bdac4058e"
+            name="_firstNames"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isOrdered="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d3fe3b03-11bc-4ab2-b844-ab4920c5ac67"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DNameGenerator Member%3D_firstNames"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dbaa9154-279a-4c1f-a3db-0235ad1f6832"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbac0a26-d4bf-4920-bc8f-704bd991f405">
+                    <propertyInstance
+                      Id="83bc226e-9b43-45fc-8231-d6e2b8660ca2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd4ccb69-fcb4-4508-bb26-ff7f266504f8">
+                    <propertyInstance
+                      Id="bed83973-65dd-4c28-99f4-7b73938bf947"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acb6baa3-afd4-463c-89db-ac14f4f41b8b">
+                    <propertyInstance
+                      Id="622c2aff-4f10-45b8-92db-e628fc769840"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d658b19-8723-489d-ad98-cc9f0b9cd281">
+                    <propertyInstance
+                      Id="ed19667c-a1ef-4e27-a758-ded6650830c4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08cce993-6bf1-46cb-bba9-10fe0b192e1f">
+                    <propertyInstance
+                      Id="3b69ae85-5c81-47de-a1f3-fd193e36e252"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="bc0b96e3-7c9b-44ab-bdf0-537786012c1d"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="9e695604-4b02-4651-8753-f2bf8ab6f6e7"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f17fc3a9-7ea2-4c5c-acd9-b9d0f1427d59"
+            name="_lastNames"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isOrdered="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a14d731f-18b9-4c92-9c45-64187dccfe5f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DNameGenerator Member%3D_lastNames"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6fc3f145-d071-4da2-b90c-1e0d3944293d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df5277a2-6b5a-442d-8351-be3ce650668e">
+                    <propertyInstance
+                      Id="f560c104-286f-4d96-abad-27cb41bf6a82"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="591f650a-27ed-46ed-bd38-44fce67ee9d2">
+                    <propertyInstance
+                      Id="118f55e3-e673-4f23-a6b2-7c55ac05d2c2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1113bb64-7986-4373-9cf2-9c54b6c5cdb8">
+                    <propertyInstance
+                      Id="23bf32f8-477a-49bf-bddd-6efccca4ace4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b246604b-d3e3-47af-aa3e-40e882bee1dd">
+                    <propertyInstance
+                      Id="0b4eb6e3-6b7a-49ef-a275-fef3721ea307"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbb40962-3760-4bfa-842b-b1dcc46d5c7f">
+                    <propertyInstance
+                      Id="31c4603b-9019-457d-a55b-568e7a7b5944"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="2580caeb-838f-4ea4-8bf2-9da38a120fd3"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="bab42c33-2ec1-4676-8f4b-36e6b44aeb93"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e7598805-0e74-46c5-a942-dafff6444bb9"
+            name="_midleNames"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isOrdered="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="08703e5c-0cde-4259-b905-bb5e574739d4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DNameGenerator Member%3D_midleNames"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9fe3561f-1f20-4f48-97a4-4847148e34a8"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54168152-09f7-4779-9013-b660af37a138">
+                    <propertyInstance
+                      Id="58641238-6369-40d5-99f0-9b6a93ffa424"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3667060c-659e-4620-97f4-3d2a1cb2a7ab">
+                    <propertyInstance
+                      Id="af62dae0-0dd5-4853-8021-c0c686344fce"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4a68ca9-07c9-4f47-81e6-9159ad97c6d8">
+                    <propertyInstance
+                      Id="0f5a55ab-8fb8-4c15-a4e0-28a74c28c6e6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aa0b83d-13ef-41da-8b31-4853d8a679f8">
+                    <propertyInstance
+                      Id="6e88a3d4-95ad-4b4e-9c68-d5527fd26780"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e19a7f27-0095-4368-adef-2c0fb341d517">
+                    <propertyInstance
+                      Id="d27840e7-8948-482c-b44e-e5e51c46f29a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="88bb8405-5465-4b6c-afbc-3a704b4ae857"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="8434f3f1-b2c3-421e-bdca-7ab8568a6669"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9150be80-a1bd-465a-91c0-78addc9628ba"
+            name="FullNames"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="184f4059-7d24-4491-8f56-b02bfd6499d5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DNameGenerator Member%3DFullNames"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a152e949-8e09-4f8f-ae57-cb431513d4e1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a292c539-66ed-41b0-8a2d-6bfd0de7664d">
+                    <propertyInstance
+                      Id="4c1a2c83-b5cc-4668-be99-38aa9ddac216"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d000bd74-a508-4f45-b204-c75ace6ba8b9">
+                    <propertyInstance
+                      Id="302ca4f9-106c-4e4c-b1c0-557918a6bf2a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d83fd269-1c25-4752-92e8-74c3fb370a86">
+                    <propertyInstance
+                      Id="8191c9a0-8885-4a82-85af-5e563f6ca254"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68fbfa4e-d82d-4c5e-8f29-90ff064d9455">
+                    <propertyInstance
+                      Id="2adf10c4-e584-48b2-8115-2c46fd079bcf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5649518e-f8cb-4db9-b7d7-23cb2144ef20">
+                    <propertyInstance
+                      Id="480596c0-7f92-4e92-9cc4-d93e0d844115"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26ec8559-bea8-436e-9e0d-035e4e6b85a3">
+                    <propertyInstance
+                      Id="6db90e23-aef0-47f6-a934-9573e00a27b7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4417bcc7-92d9-45c8-8a40-e7970be58a57"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9e40d7a0-e380-4b76-81bd-e6e3d97cf323"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="36fcddaf-0655-4de9-8e8a-e45b0de995c0"
+            name="NameGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d11d5433-4d9a-48a7-9d59-c472ff6e16fa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DNameGenerator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4bbc9f6-cd60-4c02-88c7-0aaa88a0438a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f559f636-276d-46e5-a42d-9e4aa8c4d14a">
+                    <propertyInstance
+                      Id="b53973dc-1f66-4fc2-8a37-997cafd7081c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3aba06ca-0686-4f06-9b9f-09477370f9f2">
+                    <propertyInstance
+                      Id="8b4f9524-bf2e-470a-a5ec-3bcefcf6a0de"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c0061c0-d510-404c-9a4f-59562040350d">
+                    <propertyInstance
+                      Id="1cf24c32-93be-43b4-b0d8-b1d544c381d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="865f45db-bb50-447f-92e3-9ea2e68e98d2">
+                    <propertyInstance
+                      Id="c9880c94-0e85-42d3-9a3f-9f70d103b613"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="313cecf3-6828-4801-ac7a-019393dfe2b1">
+                    <propertyInstance
+                      Id="0a780802-9f39-4bc5-b710-308bdf73ab23"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a5b1170-5733-41bf-821a-b90f2fd2a41c">
+                    <propertyInstance
+                      Id="1da847ea-e262-4f6f-b8b3-d3ef43180f86"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f03d3e39-d801-4da5-ac66-81b7e4b84fdc"
+        name="StringBuilderExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="49a6087b-2b88-4c46-9347-57dc1269ef6c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DStringBuilderExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b6beecd8-74f1-4bae-83e6-e75e3341b099"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e6dad80-1608-4f18-9200-2a363f930918">
+                <propertyInstance
+                  Id="5976cd36-734e-40d6-ac25-3f1370caf39f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3b181f8-2df2-4aa0-99a6-1e5dc7e522a2">
+                <propertyInstance
+                  Id="923c8c39-cb19-4720-ac61-0d5ccc6868a0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1c0bdb0-1695-4300-a8f1-a4d9683d17b8">
+                <propertyInstance
+                  Id="92560796-10f9-4528-a64c-f149ff6bba61"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdebe8ac-3af8-41ad-87cd-53704b9a20b4">
+                <propertyInstance
+                  Id="63baf6b2-3959-4346-affa-870d2082edbc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20f1dedf-549d-47fb-a36f-cdaeb3598119">
+                <propertyInstance
+                  Id="a43594f7-4870-4d73-8167-195bdc8240f8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8409c176-2ffd-47dd-90aa-106aa92d1e40"
+            name="AppendInNewLine"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="56f36284-fe6a-47b6-8e63-6a66df9646a1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DStringBuilderExtensions Member%3D(Name%3DAppendInNewLine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Text Type%3DStringBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="31008ded-7a71-4ce2-82ae-09b327556388"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ee4205f-cf3f-4de0-8add-7d9aa861a617">
+                    <propertyInstance
+                      Id="660f4401-265f-483e-89b6-08dd864636b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="235121df-0d0e-45e8-afb3-32a797db7e16">
+                    <propertyInstance
+                      Id="65a1cf50-fc59-478a-bd63-ba0a58c32786"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08cf3992-8ebc-4779-9686-97c26d73b88f">
+                    <propertyInstance
+                      Id="c8cb49a6-e4c9-444b-9f36-ac29a44687ba"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5073f61f-0ef8-4a16-a321-1eabddb5391f">
+                    <propertyInstance
+                      Id="9db6c72c-f714-43dd-94b4-5c36a48094fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50c93410-7dae-479e-b7b9-925924e581af">
+                    <propertyInstance
+                      Id="c501d3f1-336a-48fd-b62d-d6bdc9246d1a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38dde279-59c3-4b71-97a3-e2e836ec02dd">
+                    <propertyInstance
+                      Id="051dba0d-b1d2-4a61-853b-c9df923602c5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc3126be-5c6b-4ddb-89b2-f1f1ab8e34e9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="888aa4ac-c82e-46dc-a165-d65597d07b34"
+                      LastKnownName="StringBuilder"
+                      LastKnownLocation="Package6_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b7ee4a41-fc7e-47e7-b8d1-18f7e1b61461"
+                  name="stringBuilder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b6b7179f-6f6d-4375-895a-66338760e30f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DStringBuilderExtensions Member%3D(Name%3DAppendInNewLine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Text Type%3DStringBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstringBuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="888aa4ac-c82e-46dc-a165-d65597d07b34"
+                      LastKnownName="StringBuilder"
+                      LastKnownLocation="Package6_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f02204d5-410f-4119-93cb-935351e18161"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="927bdfc0-cebe-404f-99d6-dd8ac3bf3945"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DStringBuilderExtensions Member%3D(Name%3DAppendInNewLine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Text Type%3DStringBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9992c778-9c7a-4c84-9752-02cab60ef921"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="47065fd6-d5d3-47a2-b07c-e48c9847ebd9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d1e6e57e-d31a-4b4e-9fd9-ac4d7ed0af47"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa12aa37-f217-496d-a8d7-67ed1314a264">
+                <propertyInstance
+                  Id="1b02f6eb-8093-4574-a111-a9ca41d74392"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de58dca6-e50e-4d19-a37e-fb21503606b9">
+                <propertyInstance
+                  Id="b7a387e7-2f08-4096-a578-27a13d687795"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba16c062-8b9f-411e-b81b-2f933cd9aeee">
+                <propertyInstance
+                  Id="4b69f09c-9c39-4fb3-baf7-d254951dbf21"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e47995ae-2d5a-4a87-af2f-d7353ff4bd78">
+                <propertyInstance
+                  Id="c7b775fd-9a06-4d0f-bde3-ed3dda354623"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fa60c0c-ee16-48b9-b35a-0c960ca53bef">
+                <propertyInstance
+                  Id="1df5a02d-a306-42a6-a1ef-67cf0107af10"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1728f997-975e-4d26-970d-8fed78ce7e51"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2eb78974-468b-43d3-9492-f6a59b3166a9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DProgram Member%3DMain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0e487662-6764-4c22-a1ba-b87aa764fbc2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80db1e80-41db-4528-8207-849283e7ef41">
+                    <propertyInstance
+                      Id="113b2c16-4825-4d81-8636-c14b7a87fc0d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51e35932-d91f-4915-b43f-5f7cc7e4b029">
+                    <propertyInstance
+                      Id="25de6fe3-ec56-4a83-aca9-42bf88fbdd1c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f317ff5-5182-414f-b38c-a5f517c469e4">
+                    <propertyInstance
+                      Id="002b95b7-b636-46da-978e-becc5f89f3cb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f656a6f1-b4f3-48d8-95a5-184ae1b38ef0">
+                    <propertyInstance
+                      Id="d5058160-4cf0-4bef-af7f-8999580826e2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d7ffd4b-4a18-4ba3-9fa3-f91a4f31fa3a">
+                    <propertyInstance
+                      Id="01a9dbd4-9330-4be4-92f6-9e6ff20afcb6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07ee45d3-af37-4eb5-b6ee-e09f524d20b8">
+                    <propertyInstance
+                      Id="d312fca3-7ed0-4f52-b6a7-32fe1868eafd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4e526e54-bdf6-4a1e-be3a-b6c1bcc65b85"
+        name="ControlExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9294fd49-5f36-4c22-a5d2-719aeafb8013"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="17c7b1e0-6b7b-4e9a-8473-0bdfa88d4133"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89f445ff-ea61-48ba-b5f2-ddc6f1cd8eca">
+                <propertyInstance
+                  Id="3a741de2-bca4-4566-8fe0-9d24f8bf79fc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb51bc37-018d-4edc-84d8-cf6f5fb9bcef">
+                <propertyInstance
+                  Id="a0caf786-dfd2-45fb-8b4f-683e5ab80deb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44b8c63f-14fa-4879-bc36-78448488db66">
+                <propertyInstance
+                  Id="17d0c1a8-867b-4723-a694-f2d77af8a824"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f865fda-9efa-441e-a357-5fbdd5eb2aaf">
+                <propertyInstance
+                  Id="2d19bd5f-7cba-49af-b668-8b68fa57557a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ff37571-9485-4f96-a8a9-01b3f1b0a5df">
+                <propertyInstance
+                  Id="3b9e5361-8a3d-4196-950a-844546d1fea1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6d06b6f7-5141-4201-990a-1c65fb94d618"
+            name="FindControl‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3cba57aa-d84c-4bef-8b10-1ea49f99f842"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DFindControl GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DControl)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="df05555a-7a30-4441-b9cf-6e38efa37115"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66621cff-3a67-401b-bb0e-4f110da0ff92">
+                    <propertyInstance
+                      Id="2683af74-76ad-455b-a7bd-92059310c839"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f884aa05-32c8-494d-9f58-e00a446a780d">
+                    <propertyInstance
+                      Id="a5b26ade-ee4d-49f9-a6eb-a9710699c78e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c93bc24d-52d4-4043-bafe-365ab465d7be">
+                    <propertyInstance
+                      Id="60dba2b3-2a7d-4d9b-bd92-0a9097b084e1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5382fd41-5be4-458f-968d-fd78e73747b7">
+                    <propertyInstance
+                      Id="02e05700-4be6-40b3-93e7-547ca3273d46"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20b92680-b2a2-4591-97f6-50e6b3f19f82">
+                    <propertyInstance
+                      Id="244b6fd5-8689-426d-8e59-9364067f2082"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24fb8c11-7f5d-47ac-aa42-87a8ed25d9fb">
+                    <propertyInstance
+                      Id="c8aca767-eb04-4360-b49b-b99421cb5220"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fc2898e6-985d-4578-b8ff-2dfe59f03e47"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="a1251985-a699-4288-a0be-f4f4ff561c33"
+                      LastKnownName="T"
+                      LastKnownLocation="Package_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="73879102-4094-47ba-8b81-6fcdf7b4d3bb"
+                  name="control"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="163bc00b-e357-4462-86c8-fbaef43bf005"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DFindControl GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DControl)]) ParameterIdentifier%3Dcontrol"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ab30d951-d6f0-412b-a486-97be7c831372"
+                      LastKnownName="Control"
+                      LastKnownLocation="Package10_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2e4275cc-13a2-4695-84a0-954effa40e37"
+            name="Bind‎&lt;TControl‎, TSource‎, TTargetType‎, TSourceType‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0b0f99a6-30bd-463b-957a-6ab6ff4c8232"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a6c5d69d-58e3-482c-a00f-02e52f6ba0c8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05e292bc-2663-4466-8910-0bdd5b123949">
+                    <propertyInstance
+                      Id="47bccadd-ef1c-4ce0-ba75-b0204b185759"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05816bff-5559-48e9-924a-a79b52939b3a">
+                    <propertyInstance
+                      Id="d9c8fa2c-f2bc-4f89-9663-396d193395bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="225728d6-d897-469b-84fa-f036c2d36675">
+                    <propertyInstance
+                      Id="41666d6a-70c5-4140-b708-df731a01e461"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ac95481-309e-408b-b0fd-3a614b094e7d">
+                    <propertyInstance
+                      Id="68e8b148-f21e-4423-8fe0-cb5beeab76ee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13c46453-6e48-459b-9fbd-0ef99e9082d1">
+                    <propertyInstance
+                      Id="12c956a7-04d0-4d46-8af1-7387fa2135a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8370fc5c-d24b-4077-b893-4b71c9da0b9f">
+                    <propertyInstance
+                      Id="c89f3c27-2fcd-4d7c-ae24-1508213fb426"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ccf6a7bb-2b1e-4eec-ac5b-9d627a295b48"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="a4e3be98-aa91-432e-bb6a-8bc5def65ac8"
+                      LastKnownName="TControl"
+                      LastKnownLocation="Package_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="47f8ae6c-9792-48da-81e0-9543aa692e1f"
+                  name="control"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3b3187f8-f7f6-4f0a-8c04-88d3a9f8d41d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3Dcontrol"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="a4e3be98-aa91-432e-bb6a-8bc5def65ac8"
+                      LastKnownName="TControl"
+                      LastKnownLocation="Package_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a8a23e50-3051-4cc8-8254-e71ecf808cc2"
+                  name="controlExpression"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1fb6eae2-f376-4877-abaa-38c0f34d643d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3DcontrolExpression"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="27246c7c-c6c9-4832-803f-41d6c9d2cdfb"
+                      LastKnownName="Expression&lt;Func‎&lt;TControl‎, TTargetType‎&gt;‎&gt;"
+                      LastKnownLocation="Package8_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da1a3274-ab5f-4c77-8535-f8678bb7e8d3"
+                  name="source"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6fd7b089-140b-4d68-9770-11cbf289a558"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3Dsource"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="310051c8-941b-4d63-8976-c74869a3ef9e"
+                      LastKnownName="TSource"
+                      LastKnownLocation="Package_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e29dcf77-5888-4631-a47b-3300ffa512ad"
+                  name="sourceExpression"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e3215274-bc7a-4c1f-8358-c2f5911260b3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3DsourceExpression"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d14c3dc3-87f6-4afd-b348-0d34f883deb6"
+                      LastKnownName="Expression&lt;Func‎&lt;TSource‎, TSourceType‎&gt;‎&gt;"
+                      LastKnownLocation="Package8_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ccd776da-c447-4648-b2e7-1524e607d5b3"
+                  name="formattingEnabled"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="44bb833c-de48-44a1-9550-222149f4f192"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3DformattingEnabled"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85263073-818c-4d02-8226-3aadb6130220"
+                  name="dataSourceUpdateMode"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="24733080-3145-4b01-971c-782ba8cc762d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3DdataSourceUpdateMode"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="41eae01d-fa4c-4105-b672-5527718e638e"
+                      LastKnownName="DataSourceUpdateMode"
+                      LastKnownLocation="Package10_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="727f45ab-7aac-4f89-affa-2b5df5f2009a"
+                  name="converter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f358ec27-6c4b-41a5-a703-8b5091b557c9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3Dconverter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="508f1565-7174-4865-a884-ed9e26ea970c"
+                      LastKnownName="Func&lt;TSourceType‎, TTargetType‎&gt;"
+                      LastKnownLocation="Package1_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f5482b8c-d48c-449f-8558-6efcc672aa62"
+                  name="backConverter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1df18608-3a1d-4313-bdec-cc1cededdf96"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3DbackConverter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="926439e1-46a3-4caa-9d02-a122b557ab46"
+                      LastKnownName="Func&lt;TTargetType‎, TSourceType‎&gt;"
+                      LastKnownLocation="Package1_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="18cd89ee-5f80-425a-a437-d112a99b307f"
+            name="BindingOnFormat‎&lt;TSourceType‎, TTargetType‎&gt;"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8a4c47ae-79c1-432a-b0c2-f04f565ca1e8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnFormat GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="04016571-e787-4f44-85b8-397202138c5b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30718adc-b0f5-4a57-a877-6e230561a798">
+                    <propertyInstance
+                      Id="6855591a-30ee-4894-9c5c-f5e04ccf11fd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7940e6a1-15eb-42d3-972b-11229579e161">
+                    <propertyInstance
+                      Id="ec1dc5c9-d05d-4162-86d2-c3e16ba59ffb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33147304-7d0a-471a-b671-805f5abb0557">
+                    <propertyInstance
+                      Id="615dca94-a0b3-4f2a-9ede-0f0c23db60df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c0aeb6c-bc35-4ed1-959b-3c274749739a">
+                    <propertyInstance
+                      Id="6d12acf1-1ef9-4f4d-801a-d6962cc27de2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="718d01e9-557b-4adc-9684-cecd5c8e776e">
+                    <propertyInstance
+                      Id="68d3a49e-66f6-4d0d-8a3d-242f2b2b24c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="500da581-517b-44ce-ba8e-eb0447e7e386">
+                    <propertyInstance
+                      Id="e1e56a4e-29bf-4192-8681-1fba6a800133"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="457ffc77-38fe-4d0f-991b-42ee31f3544f"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="79bc487d-1f1d-4dcc-8cfa-32f1c43c229e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnFormat GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="50b330db-50b2-4bac-b1ef-ee155d15749e"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="173d1e2c-527e-4f3f-8374-0273e45572ed"
+                  name="convertEventArgs"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3a3b2e7d-4357-41bd-80b9-e29bb1c20457"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnFormat GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3DconvertEventArgs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0ab7f995-20c0-4b22-8824-95563089f2d3"
+                      LastKnownName="ConvertEventArgs"
+                      LastKnownLocation="Package10_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="985a0a14-76c3-4f37-9105-1744670cd172"
+                  name="converter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1fbb6f6c-b67b-4374-95e0-295c26fcf4bc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnFormat GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3Dconverter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="508f1565-7174-4865-a884-ed9e26ea970c"
+                      LastKnownName="Func&lt;TSourceType‎, TTargetType‎&gt;"
+                      LastKnownLocation="Package1_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a1edc1d7-3d31-4069-9661-fe711d00b202"
+            name="BindingOnParse‎&lt;TTargetType‎, TSourceType‎&gt;"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b8d07e83-2e8b-4cf9-9085-491f44373c23"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnParse GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85351d19-a7a4-4d3a-9d0c-932816a594b2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12c008f2-a32f-42ce-81ed-7067794fe11a">
+                    <propertyInstance
+                      Id="f57fe8e4-54ff-449d-ae9c-2207c0682378"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="158e6d0a-3f0e-44cc-9641-c69bf5146f01">
+                    <propertyInstance
+                      Id="76057e68-4da6-477b-b72e-04e07647ea23"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0c87442-b216-4cf9-84b3-bd02992b4585">
+                    <propertyInstance
+                      Id="7fc31d5f-c3b8-4594-97c4-52de53e7cbad"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e3003eb-cd29-485b-82eb-be27c712560b">
+                    <propertyInstance
+                      Id="241ddec6-77fd-4319-ac88-92e7d5f608c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="174482f7-3734-4186-a9d7-0e56519f4801">
+                    <propertyInstance
+                      Id="a1483b47-c838-4da0-a4fb-1e17e5e58498"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="353da950-6c6e-4d78-922f-5f4db06d0e6d">
+                    <propertyInstance
+                      Id="05967f90-b912-4d5f-b789-1d5e8c0cab86"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5efffa22-69ca-4312-95f2-1bf82d7e8edd"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="06049bda-3172-43de-82b7-28128dfb913a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnParse GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="50b330db-50b2-4bac-b1ef-ee155d15749e"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="860dc216-828d-4254-8821-f64a9812eed6"
+                  name="convertEventArgs"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0809c42e-f194-4dc4-acf1-002de833af32"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnParse GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3DconvertEventArgs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0ab7f995-20c0-4b22-8824-95563089f2d3"
+                      LastKnownName="ConvertEventArgs"
+                      LastKnownLocation="Package10_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="32c92490-7f5c-46d2-bce8-d0395e2ff50c"
+                  name="converter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5da334ec-1fef-4d0c-9b72-cd34787b66a8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnParse GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3Dconverter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="926439e1-46a3-4caa-9d02-a122b557ab46"
+                      LastKnownName="Func&lt;TTargetType‎, TSourceType‎&gt;"
+                      LastKnownLocation="Package1_1119.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a4e3be98-aa91-432e-bb6a-8bc5def65ac8"
+        name="TControl">
+        <referencesInternal>
+          <reference
+            Id="9b31ef94-c528-4001-93a5-3668a2758cc0"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fe23b31c-e7be-4ec5-9da7-3cf3c76b55aa"
+        name="TTargetType">
+        <referencesInternal>
+          <reference
+            Id="04d7e227-1c35-4230-8c58-eeb5906ca33a"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnParse GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="310051c8-941b-4d63-8976-c74869a3ef9e"
+        name="TSource">
+        <referencesInternal>
+          <reference
+            Id="453e4e6a-9465-4206-ba18-9edcf7382eab"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBind GenericParameterCount%3D4 OverloadingParameters%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D2)]))]))%2C(ParameterIdentifier%3D1)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D1)%2C(ParameterIdentifier%3D3)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DDataSourceUpdateMode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D3)%2C(ParameterIdentifier%3D2)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D2)%2C(ParameterIdentifier%3D3)]))]) ParameterIdentifier%3D1"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="51404c51-d190-40f8-950f-7bbc268229bd"
+        name="TSourceType">
+        <referencesInternal>
+          <reference
+            Id="aa151786-2be9-4736-b208-c8b6512b9aec"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DBindingOnParse GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DConvertEventArgs)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3D1"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a1251985-a699-4288-a0be-f4f4ff561c33"
+        name="T">
+        <referencesInternal>
+          <reference
+            Id="0493d4c3-7c47-4df5-8e4c-a893a59b4082"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FWork%2FMS VS projects%2FMVVMExample%2FMVVMExample%2Fbin%2FDebug%2FMVVMExample.exe&quot; Namespace%3DMVVMExample Type%3DControlExtensions Member%3D(Name%3DFindControl GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DControl)]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
